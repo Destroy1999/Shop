@@ -1,0 +1,25 @@
+.SecRandom h1{
+    font-size: 70px;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 5px red;
+}
+.SecRandom{
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.RandomTitleBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SecRandom .ProductCard{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px;
+}

@@ -1,0 +1,47 @@
+.pCard{
+    box-shadow: 0 0 20px black;
+    width: 26%;
+    margin-top: 100px;
+    background-color: white;
+    position: relative;
+}
+
+.actual{
+    transform: rotateY(360deg);
+    transition: .5s;
+    box-shadow: 0 0 21px red !important;
+}
+
+.ProductCard{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pImgCard{
+    height: 55vh;
+}
+
+.pSecText{
+    padding: 10px 30px;
+}
+
+.ProductCard h5{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+
+.deleteBTN{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.pBtnCards{
+    padding: 2px;
+}
+
+i{
+    font-size: 20px;
+}
